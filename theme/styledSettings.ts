@@ -1,7 +1,9 @@
 import { createGlobalStyle, css } from "styled-components";
 
 export const fontSettings = css`
-  font-family: "Inter";
+  /* @import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;600;700;800;900&display=swap"); */
+
+  font-family: "Inter", sans-serif;
   font-style: normal;
 `;
 
@@ -48,8 +50,13 @@ export const backgroundColors = {
 };
 
 export const textColors = {
-  primary: "#fff",
-  secondary: "#eff0f3",
+  primary: "#6246EA",
+  lightGrey: "#eff0f3",
+  lightGrey2: "#E4E5E9",
+  grey: "#c0c0c0",
+  darkGrey: "#949494",
+  black: "#2b2c34",
+  white: "#fff",
 };
 
 export const GlobalStyle = createGlobalStyle`
@@ -76,6 +83,9 @@ body {
   background-color: #76ED44;
   border-radius: 10px;
   border: 3px solid #D2D6DB;
+}
+html, body, #__next {
+  height: 100%;
 }
 `;
 
