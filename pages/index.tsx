@@ -1,3 +1,4 @@
+import Category from "@modules/Category";
 import HeroContainer from "components/HeroContainer";
 import Spacing from "components/Spacing";
 import type { NextPage } from "next";
@@ -35,7 +36,9 @@ const Home: NextPage = () => {
           />
         </S.MainContent>
       </HeroContainer>
-      <CategoryContainer />
+      <S.CategorySection>
+        <Category />
+      </S.CategorySection>
     </>
   );
 };

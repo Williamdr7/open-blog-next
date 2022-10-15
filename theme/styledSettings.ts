@@ -87,6 +87,8 @@ body {
 html, body, #__next {
   height: 100%;
 }
+
+
 `;
 
 export const theme = {

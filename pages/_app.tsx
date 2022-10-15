@@ -1,13 +1,14 @@
-import { GlobalStyle, theme } from "@theme/styledSettings";
+import { theme } from "@theme/styledSettings";
 import { ThemeProvider } from "styled-components";
-import { ComponentProps } from "react";
 import { AppProps } from "next/app";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import "theme/globalStyles.css";
 import Header from "components/Header";
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
-      <GlobalStyle />
       <ThemeProvider theme={theme}>
         <Header />
         <Component {...pageProps} />

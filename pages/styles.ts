@@ -22,3 +22,9 @@ export const MainContentDescription = styled.p`
 export const MainContentBox = styled.div`
   width: 50%;
 `;
+
+export const CategorySection = styled.div`
+  display: flex;
+  height: 600px;
+  align-items: center;
+`;
