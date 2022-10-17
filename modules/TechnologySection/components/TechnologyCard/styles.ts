@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const CategoryCard = styled.div<{ emphasis?: boolean }>`
+export const TechnologyCard = styled.div<{ emphasis?: boolean }>`
   width: 220px;
   height: 280px;
   display: flex;
@@ -21,13 +21,13 @@ export const CategoryCard = styled.div<{ emphasis?: boolean }>`
   }
 `;
 
-export const CategoryTitle = styled.span`
+export const TechnologyTitle = styled.span`
   text-align: center;
   font-size: 28px;
   font-weight: 600;
 `;
 
-export const CategoryImage = styled.div`
+export const TechnologyImage = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;

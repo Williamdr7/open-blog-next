@@ -23,7 +23,7 @@ export const MainContentBox = styled.div`
   width: 50%;
 `;
 
-export const CategorySection = styled.div`
+export const TechnologySection = styled.div`
   display: flex;
   height: 600px;
   align-items: center;
